@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Church Invitation Card</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+  <h1>Church Invitation Card Generator</h1>
+
+  <div class="card" id="card">
+    <img src="my-canva-card.jpg" alt="Invitation Card" class="card-img">
+    <div id="guestName" class="name">[Name]</div>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="nameInput" placeholder="Enter Name">
+    <button onclick="updateName()">Preview</button>
+    <button onclick="downloadCard()">Download</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
